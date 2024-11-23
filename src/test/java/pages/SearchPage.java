@@ -13,6 +13,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 public class SearchPage {
     private WebDriver driver;
     private WebDriverWait wait;
+    
 
     private By searchIcon = By.xpath("//a[contains(@class,'search-icon')]");
     private By searchInputField = By.xpath("//input[@placeholder='Search']");

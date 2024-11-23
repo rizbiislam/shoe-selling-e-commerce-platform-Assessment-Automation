@@ -6,6 +6,7 @@ import org.testng.annotations.Test;
 import pages.SearchPage;
 import utilities.BaseTest;
 
+
 public class searchTest extends BaseTest{
 	
 	@Test(priority = 1, description = "Verify Sucessfully search")

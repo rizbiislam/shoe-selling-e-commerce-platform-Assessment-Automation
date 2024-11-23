@@ -12,6 +12,7 @@ public class LoginPage {
     private WebDriver driver;
     private WebDriverWait wait;
     
+    
     private By loginIcon = By.xpath("//a[contains(@href,'/account')]");
     private By loginIcon2 = By.xpath("//a[@href='/account']");
     private By emailField = By.xpath("//input[@name='email']");

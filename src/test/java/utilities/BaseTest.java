@@ -1,8 +1,10 @@
 package utilities;
 
 import io.qameta.allure.Step;
+
 import io.github.bonigarcia.wdm.WebDriverManager;
 import io.qameta.allure.Allure;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;

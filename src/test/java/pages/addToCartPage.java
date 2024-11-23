@@ -12,6 +12,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 public class addToCartPage {
 	private WebDriver driver;
     private WebDriverWait wait;
+   
     
     private By varient = By.xpath("//ul[contains(@class, 'variant-option-list')]//li");
 
@@ -27,6 +28,7 @@ public class addToCartPage {
     	Select select = new Select(driver.findElement(varient));
     	select.selectByVisibleText(colour);
 
+    	
     }
 
 }

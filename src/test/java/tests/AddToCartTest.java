@@ -12,6 +12,7 @@ import pages.SearchPage;
 import pages.SortAndSelectRandomProduct;
 import pages.addToCartPage;
 
+
 public class AddToCartTest extends BaseTest{
 
 

@@ -12,6 +12,7 @@ public class checkoutPage {
 	private WebDriver driver;
     private WebDriverWait wait;
     
+    
     private By productPrice = By.xpath("//td//span[@class='sale-price']");
     private By productQuantity = By.xpath("//input[@type='text']");
     private By Carts = By.xpath("//a[@class='mini-cart-icon' and @href='/cart']");

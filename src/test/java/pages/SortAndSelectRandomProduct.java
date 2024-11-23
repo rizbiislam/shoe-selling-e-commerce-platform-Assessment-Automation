@@ -14,6 +14,7 @@ public class SortAndSelectRandomProduct {
 
 
     private WebDriver driver;
+    
     private WebDriverWait wait;
 
     private By allItemsCart = By.xpath("//div[@class='listing-tem']");

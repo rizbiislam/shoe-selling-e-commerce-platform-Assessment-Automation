@@ -12,6 +12,7 @@ public class SignUpPage {
 	private WebDriver driver;
     private WebDriverWait wait;
     
+    
     private By userfullName = By.xpath("//input[@name='full_name']");
     private By  createNewAccount = By.xpath("//a[contains(text(),'Create an account')]");
     
