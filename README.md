@@ -1,6 +1,6 @@
 
 
-# 🎉 Welcome to the SuccessDemo Test Framework! 🎉
+# 🎉 Welcome to the Demo Evershop Test Framework! 🎉
 
 Created an end-to-end test automation framework for the SauceDemo eCommerce website using Selenium WebDriver and TestNG. The framework follows the Page Object Model (POM) for clean, maintainable code and automates key scenarios such as login, search products, select random products, check products total price, cart management, and checkout.
 
